@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dist/output.css">
+</head>
+<body class="">
+    
+    <!-- navbar start -->
+    <nav class="absolute top-0 left-0 w-full p-4 font-normal text-slate-800 z-20">
+        <div class="container mx-auto relative flex">
+            <div class="flex items-center justify-between">
+                <!-- kiri -->
+                <div class="px-4">
+                    <a href="#home" class="py-2 flex items-center">
+                        <img src="dist/img/kbb1.png" alt="Logo" class="h-11 lg:h-14 mr-4">
+                        <span href="#home" class="hidden sm:block font-black text-lg text-primary lg:block lg:px-6 uppercase">Disdukcapil <span class="text-blue-z">KBB</span></span>
+                    </a>
+                </div>
+
+                <!-- kanan -->
+                <div id="nav-menu" class="absolute hidden right-4 bg-white top-20 rounded-md shadow-lg text-slate-500 font-medium w-40 overflow-hidden lg:bg-transparent lg:top-0 lg:w-full lg:h-full lg:flex items-center lg:shadow-none lg:rounded-none">
+                    <ul class="py-1.5 lg:flex lg:absolute lg:right-0 xl:text-lg lg:text-base lg:font-medium">
+                        <li>
+                            <a href="#profile" id="profile" class="inline-block py-2 px-4 w-full hover:bg-slate-100 lg:hover:bg-transparent lg:hover:text-blue-z">Profile</a>
+                        </li>
+                        <li>
+                            <a href="#pelayanan" id="profile" class="inline-block py-2 px-4 w-full hover:bg-slate-100 lg:hover:bg-transparent lg:hover:text-blue-z">Pelayanan</a>
+                        </li>
+                        <li>
+                            <a href="#inov" id="profile" class="inline-block py-2 px-4 w-full hover:bg-slate-100 lg:hover:bg-transparent lg:hover:text-blue-z">Inovasi</a>
+                        </li>
+                        <li>
+                            <a href="#down" id="profile" class="inline-block py-2 px-4 w-full hover:bg-slate-100 lg:hover:bg-transparent lg:hover:text-blue-z">Download</a>
+                        </li>
+                        <li>
+                            <a href="#galeri" id="profile" class="inline-block py-2 px-4 w-full hover:bg-slate-100 lg:hover:bg-transparent lg:hover:text-blue-z">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#hub" id="profile" class="inline-block py-2 px-4 w-full hover:bg-slate-100 lg:hover:bg-transparent lg:hover:text-blue-z">Hubungi Kami</a>
+                        </li>
+                       
+                    </ul>
+                </div>
+                
+                <div class="flex items-center px-4">
+                    <button id="hamburger" class="block absolute right-4 lg:hidden border border-slate-400 rounded-md px-2">
+                        <span class="w-[30px] h-0.5 my-2 block bg-slate-400"></span>
+                        <span class="w-[30px] h-0.5 my-2 block bg-slate-400"></span>
+                        <span class="w-[30px] h-0.5 my-2 block bg-slate-400"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+    
+
+    <!-- section Home Start-->
+    <section id="home" class="pt-32 lg:pt-44">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap">
+
+                <!-- kiri -->
+                <div class="w-full lg:w-1/2">
+                    <img src="dist/img/identity.png" alt="cover image" class="mx-auto">
+                </div>
+
+                <!-- kanan -->
+                <div class="w-full mt-5 lg:w-1/2">
+                    <h1 class="text-base font-bold text-blue-z md:text-xl">Selamat Datang Di 
+                        <span class="block text-dark text-3xl sm:text-4xl mt-1 lg:text-5xl">Dinas Kependudukan Pencatatan Sipil</span>
+                    </h1>
+                    <h2 class="font-medium text-dark opacity-70 text-lg mb-5 lg:text-2xl">Kabupaten Bandung Barat</h2>
+                    <p class="capitalize font-medium text-dark opacity-70 mb-10 leading-relaxed">Data kependudukan yang mutakhir dapat dilihat di identitas kependudukan digital (IKD)</p>
+                    <a href="https://web.dukcapil.kemendagri.go.id/web/" target="_blank" class="text-base font-semibold text-white bg-blue-z py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-200 ease-in-out">Masuk ke IKD -></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- section Home End -->
+
+    <!-- section menu start -->
+    <section id="menu" class="mt-20 py-16 lg:mt-32 bg-slate-100">
+        <div class="container mx-auto px-5 md:px-0 sm:w-full">
+            <div class="flex flex-wrap justify-center md:gap-x-2">
+                <a href="#persyaratan" class="w-full max-w-md bg-white p-8 rounded-xl shadow-lg border md:max-w-[350px] lg:mx-2 lg:max-w-md xl:max-w-lg mb-4 hover:-translate-y-1 transition hover:opacity-80">
+                    <!-- <img src="dist/img/pdf.png" alt="" class="h-[48px] mb-4"> -->
+                    <div>
+                        <img src="dist/img/pdf.svg" alt="" class="h-[48px] mb-4">
+                    </div>
+                    <h1 class="text-2xl font-semibold">Persyaratan</h1>
+                    <p class="text-base text-dark opacity-70">Laman untuk mengunduh dokumen formulir dan surat pernyataan untuk kelengkapan persyaratan pelayanan.</p>
+                </a>
+                <a href="#pelayanan-sidilan" class="w-full max-w-md bg-white p-8 rounded-xl shadow-lg border md:max-w-[350px] lg:mx-2 lg:max-w-md xl:max-w-lg mb-4 hover:-translate-y-1 transition hover:opacity-80">
+                    <img src="dist/img/mobile.png" alt="" class="h-[48px] mb-4">
+                    <h1 class="text-2xl font-semibold">Pelayanan Sidilan</h1>
+                    <p class="text-base text-dark opacity-70">Sistem Daftar Informasi Layanan Online. 
+                        Pelayanan data kependudukan dan pencatatan sipil Kabupaten Bandung Barat.</p>
+                </a>
+                <a href="#pengaduan" class="w-full max-w-md bg-white p-8 rounded-xl shadow-lg border md:max-w-[350px] lg:mx-2 lg:max-w-md xl:max-w-lg mb-4 hover:-translate-y-1 transition hover:opacity-80">
+                    <img src="dist/img/chat.png" alt="" class="h-[48px] mb-4">
+                    <h1 class="text-2xl font-semibold">Pengaduan</h1>
+                    <p class="text-base text-dark opacity-70">Tempat untuk mengajukan keluhan atau masalah terkait layanan kami.</p>
+                </a>
+                <a href="#demografik" class="w-full max-w-md bg-white p-8 rounded-xl shadow-lg border md:max-w-[350px] lg:mx-2 lg:max-w-md xl:max-w-lg mb-4 hover:-translate-y-1 transition hover:opacity-80">
+                    <img src="dist/img/social.png" alt="" class="h-[48px] mb-4">
+                    <h1 class="text-2xl font-semibold">Tabel Demografik</h1>
+                    <p class="text-base text-dark opacity-70">Beberapa data agregat Disdukcapil Kabupaten Bandung Barat. </p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- section menu end -->
+
+    <!-- section team Start -->
+        <section id="team" class=" mt-20 py-16 px-6">
+            <div class="container mx-auto" >
+
+                <div class="text-center mb-20">
+                    <h1 class="font-bold text-2xl mb-3">Daftar Pejabat Struktural</h1>
+                    <p class="text-base text-dark opacity-70">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis deserunt officia fugiat nihil.</p>
+                </div>
+                
+                <div class="flex flex-wrap px-4 lg:px-12">
+                    
+                        <div class=" max-w-md mx-auto py-6 px-4 lg:w-1/3">
+                        <div class="h-44 w-44 md:h-56 md:w-56 rounded-full overflow-hidden mx-auto mb-7">
+                            <div style="background-image: url('https://source.unsplash.com/200x200?character+a');" class="h-44 w-44 md:h-56 md:w-56 bg-cover mx-auto"></div>
+                        </div>
+                        <h2 class="text-center font-semibold mb-1">Karina Marsya</h2>
+                        <h3 class="text-center text-sm text-dark opacity-90">Copywriter</h3>
+                    </div>
+                    
+                    <div class=" max-w-md mx-auto py-6 px-4 lg:w-1/3">
+                        <div class="h-44 w-44 md:h-56 md:w-56 rounded-full overflow-hidden mx-auto mb-7">
+                            <div style="background-image: url('https://source.unsplash.com/200x200?character+b');" class="h-44 w-44 md:h-56 md:w-56 bg-cover mx-auto"></div>
+                        </div>
+                        <h2 class="text-center font-semibold mb-1">Irna Rismawati</h2>
+                        <h3 class="text-center text-sm text-dark opacity-90">Senior Designer</h3>
+                    </div>
+
+                    <div class=" max-w-md mx-auto py-6 px-4 lg:w-1/3">
+                        <div class="h-44 w-44 md:h-56 md:w-56 rounded-full overflow-hidden mx-auto mb-7">
+                            <div style="background-image: url('https://source.unsplash.com/200x200?character+c');" class="h-44 w-44 md:h-56 md:w-56 bg-cover mx-auto"></div>
+                        </div>
+                        <h2 class="text-center font-semibold mb-1">Siti Rahma Ayu</h2>
+                        <h3 class="text-center text-sm text-dark opacity-90">Principal Designer</h3>
+                    </div>
+                    
+                    <div class=" max-w-md mx-auto py-6 px-4 lg:w-1/3">
+                        <div class="h-44 w-44 md:h-56 md:w-56 rounded-full overflow-hidden mx-auto mb-7">
+                            <div style="background-image: url('https://source.unsplash.com/200x200?character+d');" class="h-44 w-44 md:h-56 md:w-56 bg-cover mx-auto"></div>
+                        </div>
+                        <h2 class="text-center font-semibold mb-1">Riki Hidayat</h2>
+                        <h3 class="text-center text-sm text-dark opacity-90">VP, User Experience</h3>
+                    </div>
+                    
+                    <div class=" max-w-md mx-auto py-6 px-4 lg:w-1/3">
+                        <div class="h-44 w-44 md:h-56 md:w-56 rounded-full overflow-hidden mx-auto mb-7">
+                            <div style="background-image: url('https://source.unsplash.com/200x200?character+e');" class="h-44 w-44 md:h-56 md:w-56 bg-cover mx-auto"></div>
+                        </div>
+                        <h2 class="text-center font-semibold mb-1">Mubayyin Hakim</h2>
+                        <h3 class="text-center text-sm text-dark opacity-90">VP, Human Resource</h3>
+                    </div>
+
+                    <div class=" max-w-md mx-auto py-6 px-4 lg:w-1/3">
+                        <div class="h-44 w-44 md:h-56 md:w-56 rounded-full overflow-hidden mx-auto mb-7">
+                            <div style="background-image: url('https://source.unsplash.com/200x200?character+f');" class="h-44 w-44 md:h-56 md:w-56 bg-cover mx-auto"></div>
+                        </div>
+                        <h2 class="text-center font-semibold mb-1">Zaskha Sasmita</h2>
+                        <h3 class="text-center text-sm text-dark opacity-90">Senior Developer</h3>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    <!-- section team End -->
+
+    <!-- info section start -->
+    <section id="info" class=" mt-20 bg-slate-100 py-16 px-4">
+        <div class="container mx-auto py-10">
+            
+            <div class="text-center mb-10">
+                <h1 class="font-bold text-2xl mb-3">GO TO DIGITAL</h1>
+                <p class="text-base text-dark opacity-70">Dinas Kependudukan dan Pencatatan Sipil Kabupaten Bandung Barat Memberikan Pelayanan dan Fasilitas Secara Digital.</p>
+            </div>
+            
+            <div class="flex flex-wrap items-center">
+                
+                <!-- kiri -->
+                <div class="w-full lg:w-3/5 p-4 lg:p-8 relative flex justify-center items-center">
+
+                    <div class="rounded-lg overflow-hidden">
+                        <img src="https://source.unsplash.com/1920x1080?mountain" alt=""/>
+                    </div>
+                    
+                    <a href="" class="absolute w-14 hover:brightness-110">
+                        <img src="dist/img/youtube.png" alt="">
+                    </a>
+                    
+                </div>
+
+                <!-- kanna -->
+                <div class="w-full  lg:w-2/5 p-4 lg:p-8">
+                    <div class="flex flex-wrap justify-center items-center">
+
+                        <div class=" p-2 lg:p-3 w-full">
+                            <!-- card -->
+                            <a href="" class="flex justify-between rounded-lg overflow-hidden shadow-md hover:-translate-y-1 transition hover:brightness-110">
+                                <div class="bg-slate-400 pt-3 px-3">
+                                    <img src="dist/img/zoom.png" alt="" style="height: 25px; width: 30px;" class="min-w-6">
+                                </div>
+                                <div class="bg-slate-50 p-3 w-full">
+                                    <h4 class="text-center font-semibold text-slate-600 text-md lg:text-lg">Videos</h4>
+                                </div>
+                            </a>
+
+                        </div>
+                        <div class=" p-2 lg:p-3 w-full">
+                            <!-- card -->
+                            <a href="" class="flex justify-between rounded-lg overflow-hidden shadow-md hover:-translate-y-1 transition hover:brightness-110">
+                                <div class="bg-slate-400 pt-3 px-3">
+                                    <img src="dist/img/gallery.png" alt="" style="height: 25px; width: 30px;" class="min-w-6">
+                                </div>
+                                <div class="bg-slate-50 p-3 w-full">
+                                    <h4 class="text-center font-semibold text-slate-600 text-md lg:text-lg">Gallery</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class=" p-2 lg:p-3 w-full">
+                            <!-- card -->
+                            <a href="" class="flex justify-between rounded-lg overflow-hidden shadow-md hover:-translate-y-1 transition hover:brightness-110">
+                                <div class="bg-slate-400 pt-3 px-3">
+                                    <img src="dist/img/newspaper-folded.png" alt="" style="height: 25px; width: 30px;" class="min-w-6">
+                                </div>
+                                <div class="bg-slate-50 p-3 w-full">
+                                    <h4 class="text-center font-semibold text-slate-600 text-md lg:text-lg">News</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class=" p-2 lg:p-3 w-full">
+                            <!-- card -->
+                            <a href="" class="flex justify-between rounded-lg overflow-hidden shadow-md hover:-translate-y-1 transition hover:brightness-110">
+                                <div class="bg-slate-400 pt-3 px-3">
+                                    <img src="dist/img/atom.png" alt="" style="height: 25px; width: 30px;" class="min-w-6">
+                                </div>
+                                <div class="bg-slate-50 p-3 w-full">
+                                    <h4 class="text-center font-semibold text-slate-600 text-md lg:text-lg truncate">Serba Serbi</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class=" p-2 lg:p-3 w-full">
+                            <!-- card -->
+                            <a href="" class="flex justify-between rounded-lg overflow-hidden shadow-md hover:-translate-y-1 transition hover:brightness-110">
+                                <div class="bg-slate-400 pt-3 px-3">
+                                    <img src="dist/img/maps-and-flags.png" alt="" style="height: 25px; width: 30px;" class="min-w-6">
+                                </div>
+                                <div class="bg-slate-50 p-3 w-full">
+                                    <h4 class="text-center font-semibold text-slate-600 text-md lg:text-lg truncate text-ellipsis">Peta-GIS Disdukcapil KBB</h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- info section end -->
+
+    <!-- Desc section start -->
+    <section id="desc" class=" bg-slate-100 py-16 px-3 pb-40">
+        <div class="container border bg-slate-200 mx-auto px-4 py-7 rounded-md">
+            <div class="flex flex-wrap justify-around">
+
+                <!-- card -->
+                <div class="border bg-white px-6 py-8 rounded-lg shadow-sm w-full mb-5 sm:max-w-96 md:max-w-80 lg:max-w-96 xl:max-w-72 lg:h-fit">
+                    <div class="border rounded-full overflow-hidden bg-red-300 w-32 h-32 mx-auto mb-5">
+                        <div style="background-image: url('dist/img/lumpat.png');" class="h-full w-full bg-cover bg-center"></div>
+
+                    </div>
+                    <div>
+                        <h1 class="text-center font-medium text-lg text-slate-800 mb-3">Lumpaaat</h1>
+                        <p class="text-center text-sm opacity-70">Memaknai <strong>jargon</strong> Lumpat sebagai sebuah proses perjalanan yang dilakukan Pemda KBB dalam mencapai berbagai tujuan, sehingga memberikan manfaat bagi masyarakat luas, “keberadaan pemerintah bisa lebih dirasakan oleh masyarakat dalam seluruh proses pembangunan yang lebih pro rakyat</p>
+                    </div>
+                </div>
+
+                <!-- card -->
+                <div class="border bg-white px-6 py-8 rounded-lg shadow-sm w-full mb-5 sm:max-w-96 md:max-w-80 lg:max-w-96 xl:max-w-72 lg:h-fit">
+                    <div class="border rounded-full overflow-hidden bg-red-300 w-32 h-32 mx-auto mb-5">
+                        <div style="background-image: url('dist/img/gagah.png');" class="h-full w-full bg-cover bg-center"></div>
+
+                    </div>
+                    <div>
+                        <h1 class="text-center font-medium text-lg text-slate-800 mb-3">Gagah</h1>
+                        <p class="text-center text-sm opacity-70 mb-2"><strong>G A G A H</strong> adalah singkatan dari Gancang Gampang Hampang</p>
+                        <p class="text-center text-sm opacity-70"><strong>KUESIONER</strong> Survey Kepuasan Masyarakat Dinas Kependudukan dan Pencatatan Sipil Kabupaten Bandung Barat Periode Januari - Juni 2020 B Nilai 76.61</p>
+                    </div>
+                </div>
+
+                <!-- card -->
+                <div class="border bg-white px-6 py-8 rounded-lg shadow-sm w-full mb-5 sm:max-w-96 md:max-w-80 lg:max-w-96 xl:max-w-72 lg:h-fit">
+                    <div class="border rounded-full overflow-hidden bg-red-300 w-32 h-32 mx-auto mb-5">
+                        <div style="background-image: url('dist/img/jabar.png');" class="h-full w-full bg-cover bg-center"></div>
+
+                    </div>
+                    <div>
+                        <h1 class="text-center font-medium text-lg text-slate-800 mb-3">Jabar</h1>
+                        <p class="text-center text-sm opacity-70 mb-2"><strong>Logo Jabar</strong> Pemerintahan Provinsi Jawa Barat.</p>
+                    </div>
+                </div>
+
+                <!-- card -->
+                <div class="border bg-white px-6 py-8 rounded-lg shadow-sm w-full mb-5 sm:max-w-96 md:max-w-80 lg:max-w-96 xl:max-w-72 lg:h-fit">
+                    <div class="border rounded-full overflow-hidden bg-red-300 w-32 h-32 mx-auto mb-5">
+                        <div style="background-image: url('dist/img/dirjen.png');" class="h-full w-full bg-cover bg-center"></div>
+
+                    </div>
+                    <div>
+                        <h1 class="text-center font-medium text-lg text-slate-800 mb-3">Kemendagri</h1>
+                        <p class="text-center text-sm opacity-70 mb-2"><strong>DITJEN DUKCAPIL KEMENDAGRI</strong> Direktorat Jenderal Kependudukan Dan Pencatatan Sipil Kementerian Dalam Negeri</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Desc section end -->
+
+    <!-- section maps start -->
+    <section id="maps" class="  bg-white">
+        <div class=" container py-4 mx-auto mt-20">
+            <div class="flex flex-wrap">
+
+                <!-- kiri/atas -->
+                <div class=" p-4 w-full lg:w-5/12 flex justify-center">
+
+                    <div class="border w-fit h-fit p-4 rounded-xl shadow-lg bg-white">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3296.006585540457!2d107.50994955143977!3d-6.842847376556293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e36f11e0e379%3A0x44861c6af9a019dd!2sDinas%20Kependudukan%20dan%20Catatan%20Sipil%20Kab.%20Bandung%20Barat!5e1!3m2!1sen!2sid!4v1703118505178!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="border w-full h-52 sm:w-[520px] sm:h-72 lg:w-full xl:w-[420px] xl:h-[400px]"></iframe>
+                    </div>
+
+                </div>
+
+                <!-- kanan/bawah -->
+                <div class="p-6 w-full lg:w-7/12">
+                    <div>
+                        <h2 class="text-base font-medium text-blue-z mb-2">Filosofis</h2>
+                        <h1 class="text-3xl font-bold text-slate-800 mb-4">Kabupaten Bandung Barat</h1>
+                        <p class="text-lg leading-relaxed text-slate-600 mb-4">(Latin: Kabupatén Bandung Kulon) adalah kabupaten di Provinsi Jawa Barat, Indonesia, sebagai hasil pemekaran Kabupaten Bandung. Kabupaten ini berbatasan dengan Kabupaten Purwakarta dan Kabupaten Subang di sebelah barat dan utara, Kabupaten Bandung dan Kota Cimahi di sebelah timur, Kota Bandung di sebelah selatan, serta Kabupaten Cianjur di sebelah barat dan timur.</p>
+                        <p class="text-lg leading-relaxed text-slate-600 mb-4">Kabupaten Bandung Barat mewarisi sekitar 1.400.000 penduduk dari 42,9% wilayah lama Kabupaten Bandung. Pusat pemerintahan Kabupaten Bandung Barat berlokasi di Kecamatan Ngamprah yang terletak di jalur Bandung-Jakarta. Dan untuk sementara waktu, pusat pemerintahan Kabupaten Bandung Barat dipindahkan ke Batujajar, dan Kecamatan Ngamprah akan di pilih menjadi pusat pemerintahan pada tahun mendatang.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section maps end -->
+
+    <!-- footer start -->
+    <footer class=" bg-slate-600 text-slate-100 p-4 py-6">
+
+        <div class="container p-4  mx-auto">
+
+            <!-- navigation -->
+            
+            <div class="flex flex-wrap mb-1 text-sm">
+                <div class=" w-1/2 sm:flex sm:justify-end sm:-ml-4">
+                    <div class=" p-4">About</div>
+                    <div class=" p-4">Pelayanan</div>
+                    <div class=" p-4">Inovasi</div>
+                </div>
+                <div class=" w-1/2 sm:flex sm:justify-start">
+                    <div class=" p-4">Download</div>
+                    <div class=" p-4">Gallery</div>
+                    <div class=" p-4">Hubungi Kami</div>
+                </div>
+            </div>
+
+            <!-- socmed -->
+            <div class="flex justify-center mb-4">
+                <div class="p-6">
+                    <a href="#" target="_blank" class="opacity-70 hover:opacity-100">
+                        <img src="dist/img/facebook.png" alt="" width="25px">
+                    </a>
+                </div>
+                <div class="p-6">
+                    <a href="#" target="_blank" class="opacity-70 hover:opacity-100">
+                        <img src="dist/img/instagram.png" alt="" width="25px">
+                    </a>
+                </div>
+                <div class="p-6">
+                    <a href="#" target="_blank" class="opacity-70 hover:opacity-100">
+                        <img src="dist/img/multiple-users-silhouette.png" alt="" width="25px">
+                    </a>
+                </div>
+                <div class="p-6">
+                    <a href="#" target="_blank" class="opacity-70 hover:opacity-100">
+                        <img src="dist/img/whatsapp.png" alt="" width="25px">
+                    </a>
+                </div>
+            </div>
+
+            <!-- copyright -->
+            <p class="text-center text-xs">© 2023 Built by <a href="https://www.instagram.com/zaskhasasmita" target="_blank" class="text-cyan-300">Zaskha Sasmita</a> Re-built Version</p>
+        </div>
+
+    </footer>
+    <!-- footer end -->
+
+
+
+    <script src="dist/js/script.js"></script>
+</body>
+</html>
